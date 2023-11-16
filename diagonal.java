@@ -22,7 +22,7 @@ public class diagonal {
         int n = matrix.length;
         for (int i = 0; i < n; i++) {
             // primary diagonal
-            sum += matrix[i][i];
+            sum = sum + matrix[i][i];
             // secondary diagonal
             if (i != n - i - 1) {
                 sum += matrix[i][n - i - 1];
