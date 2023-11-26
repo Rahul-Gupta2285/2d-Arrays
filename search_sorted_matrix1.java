@@ -1,6 +1,6 @@
 public class search_sorted_matrix1 {
 
-    // optimal approch
+    // brote force approch
     public static boolean searchSortedMatrix(int matrix[][], int target) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {

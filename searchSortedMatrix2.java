@@ -28,7 +28,7 @@ public class searchSortedMatrix2 {
                 { 32, 33, 39, 50 }
         };
 
-        int target = 10;
+        int target = 33;
 
         searchSortedMatrix(matrix, target);
     }
